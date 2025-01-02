@@ -16,7 +16,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    max-height: 100vh;
+    min-height: 100vh;
     background-color: var(--VeryDarkBlue);
     color: var(--White);
 }
