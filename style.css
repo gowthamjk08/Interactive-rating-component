@@ -16,7 +16,7 @@ main{
     display: flex;
     align-items: center;
     justify-content: center;
-    min-height: 100vh;
+    max-height: 100vh;
     background-color: var(--VeryDarkBlue);
     color: var(--White);
 }
@@ -71,8 +71,6 @@ h4:hover{
     background-color: var(--Orange) !important;
 }
 button{
-    font-weight: bold;
-    font-size: 24px;
     width: 100%;
     padding: 10px ;
     border-radius:100px;
@@ -80,6 +78,8 @@ button{
     outline: none;
     cursor: pointer;
     transition: all 300ms;
+    font-weight: bold;
+    font-size: 24px;
 }
 button:hover{
     color: var(--DarkBlue);
