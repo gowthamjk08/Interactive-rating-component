@@ -71,6 +71,8 @@ h4:hover{
     background-color: var(--Orange) !important;
 }
 button{
+    font-weight: bold;
+    font-size: 24px;
     width: 100%;
     padding: 10px ;
     border-radius:100px;
